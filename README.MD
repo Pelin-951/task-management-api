@@ -87,4 +87,47 @@ http://localhost:5000
 
 ### 7. Test the API
 
+
 You can test the API endpoints using Postman.
+
+
+
+## API Usage
+
+### Create a Task
+
+**POST** `/api/tasks`
+
+Request body:
+
+```json
+{
+  "title": "Learn Node.js",
+  "completed": false
+}
+```
+
+### Get All Tasks
+
+**GET** `/api/tasks`
+
+### Get a Single Task
+
+**GET** `/api/tasks/:id`
+
+### Update a Task
+
+**PUT** `/api/tasks/:id`
+
+Request body:
+
+```json
+{
+  "title": "Learn Express.js",
+  "completed": true
+}
+```
+
+### Delete a Task
+
+**DELETE** `/api/tasks/:id`
