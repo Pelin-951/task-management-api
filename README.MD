@@ -41,4 +41,3 @@ This project is a Task Management REST API developed using Node.js, Express.js, 
 
 ```bash
 git clone https://github.com/Pelin-951/task-management-api.git
-
