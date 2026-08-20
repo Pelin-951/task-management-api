@@ -41,3 +41,50 @@ This project is a Task Management REST API developed using Node.js, Express.js, 
 
 ```bash
 git clone https://github.com/Pelin-951/task-management-api.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd task-management-api
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Make sure MongoDB is running
+
+Make sure MongoDB is installed and running on your local machine.
+
+The application uses the following MongoDB connection:
+
+```text
+mongodb://127.0.0.1:27017/taskdb
+```
+
+### 5. Create a `.env` file
+
+Create a `.env` file in the project root directory and add:
+
+```env
+MONGO_URI=mongodb://127.0.0.1:27017/taskdb
+```
+
+### 6. Start the development server
+
+```bash
+npm run dev
+```
+
+The server will run on:
+
+```text
+http://localhost:5000
+```
+
+### 7. Test the API
+
+You can test the API endpoints using Postman.
